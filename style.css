@@ -94,9 +94,11 @@ img{
 }
 
 h1{
+    position: fixed;
     text-align: center;
     display: inline;
     color: #61210F;
+    text-shadow: -1px 0 #F9DF74, 0 1px #F9DF74, 1px 0 #F9DF74, 0 -1px #F9DF74;
 }
 
 h2{
