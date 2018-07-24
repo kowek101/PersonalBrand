@@ -1,0 +1,201 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+}
+
+.row2{
+    display: flex;
+}
+
+.column {
+    float: right;
+    width: 50%;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#F9DF74;
+}
+.column2 {
+    float: left;
+    height: 100vh;
+    width: 50%;
+    background-color:#F9DF74;
+}
+.bg{
+    background-image: url("playerhead.jpg");
+    margin 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #800080;
+    position: fixed; 
+    top: 0; 
+    right: 0;
+    width: 50%;
+
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FF0000;
+  color: white;
+}
+
+.main{
+    right: 0;
+}
+
+.img-text{
+    position: relative;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+img{
+    width:95%;
+    border: 10px solid transparent;
+    border-image: url(border.png) 30 stretch;
+}
+
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: .50;
+}
+
+h1{
+    text-align: center;
+    display: inline;
+    color: #61210F;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h5{
+    font-size: 30px;
+    margin: 0; 
+    padding: 0;
+    text-align: right; 
+    font-family: 'Calligraffitti', cursive;
+}
+
+p{
+   margin: 0; 
+}
+
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #FF0000;
+}
+
+table, th, td {
+    border: 3px solid #61210F;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
+td{
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.fa:hover {
+    background-color: #61210F;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+footer {
+   width: 100%;
+   background-color: #800080;
+   color: white;
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   width: 50%;
+}
